@@ -5,9 +5,9 @@
 let data = 'hello,atguigu'
 
 export function demo1() {
-  console.log('我是module1里的demo1方法',data.toLowerCase())
+  console.log('我是module1里的demo1方法',data.toLowerCase(),1)
 }
 
 export function test1() {
-  console.log('我是module1里的test1方法',data.toUpperCase())
+  console.log('我是module1里的test1方法',data.toUpperCase(),2)
 }

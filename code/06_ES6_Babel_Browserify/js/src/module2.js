@@ -16,5 +16,11 @@ function demo2() {
   console.log('我是module2里的demo2',arr)
 }
 
-//统一暴露------简写的方式
-export {student,demo2}
+//统一暴露------第一种写法：简写的写法
+//export {student,demo2}
+
+//统一暴露------第二种写法：完整的写法
+export {
+  student as haha1,
+  demo2 as haha2
+}
