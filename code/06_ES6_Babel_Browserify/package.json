@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "babel-preset-es2015": "^6.24.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
